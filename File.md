@@ -1,22 +1,23 @@
-WAP that inputs two arrays and saves sum of corresponding elements of these arrays in a third array and prints them.
+# WAP that inputs two arrays and saves sum of corresponding elements of these arrays in a third array and prints them.
 
-For Single Dimension Arrays-
+## For Single Dimension Arrays-
 
 If the size of the array is not same ,then traverse till the size of both the arrays and add them the corresponding elements of both the arrays,then add the remaining elments of the largest array to the end of the sum array.
-
+```
 eg-
 a={1,2,3}
 b={1,2}
 sum={2,4,3}
-
-If size is same
-
+```
+### If size is same
+```
 a={1,2}
 b={1,2}
 sum={2,4}
+```
 
-Below is the program for it-
-
+### Below is the program for it-
+```
 #include <stdio.h>
 
 int main(void) {
@@ -50,12 +51,13 @@ int main(void) {
     printf("\n");
     return 0;
 }
+```
 
-For double dimension arrays -
+## For double dimension arrays -
 
-In this program, the user is asked to enter the number of rows r and columns c. Then, the user is asked to enter the elements of the two matrices (of order r*c).
+#### In this program, the user is asked to enter the number of rows r and columns c. Then, the user is asked to enter the elements of the two matrices (of order r*c).
 
-
+```
 #include <stdio.h>
 int main() {
     int r, c, a[100][100], b[100][100], sum[100][100], i, j;
@@ -96,9 +98,10 @@ int main() {
 
     return 0;
 }
+```
 
-Output-
-
+### Output-
+```
 Enter the number of rows (between 1 and 100): 2
 Enter the number of columns (between 1 and 100): 3
 
@@ -121,3 +124,4 @@ Sum of two matrices:
 -2   8   7   
 
 10   8   6
+```
