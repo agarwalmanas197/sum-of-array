@@ -5,9 +5,9 @@
 If the size of the array is not same ,then traverse till the size of both the arrays and add them the corresponding elements of both the arrays,then add the remaining elments of the largest array to the end of the sum array.
 
 eg-
-''a={1,2,3}
+'''a={1,2,3}
 b={1,2}
-sum={2,4,3} ''
+sum={2,4,3} '''
 
 ### If size is same
 
